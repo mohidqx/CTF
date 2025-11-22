@@ -1,14 +1,23 @@
 # CyberØps CTF Platform
-CyberØps CTF is a fully interactive Capture-the-Flag (CTF) platform. It features 700 handcrafted challenges spanning 7 major cybersecurity domains. Designed with a sleek cyber-aesthetic interface and smooth UX, this platform is ideal for learning, training, and competitive CTF practice.
+CyberØps CTF is a fully interactive Capture-the-Flag (CTF) platform featuring 700 handcrafted challenges across 7 major cybersecurity domains. Designed with a sleek, cyber-aesthetic interface and smooth UX, this platform is ideal for learning, training, and competitive CTF practice.
 
-CyberØps provides everything you need in one place to sharpen your offensive security fundamentals or prepare for real-world competitions. This includes categories, difficulty tiers, points, filters, search, progress tracking, and dynamic challenge popups.
+CyberØps provides everything you need in one place to sharpen your offensive security fundamentals and prepare for real-world competitions. This includes categories, difficulty tiers, points, filters, search functionality, progress tracking, and dynamic challenge popups.
 
+
+## Table of Contents
+1.  [Features](#features)
+2.  [Challenge Structure](#challenge-structure)
+3.  [Categories Overview](#categories-overview)
+4.  [Tech Used](#tech-used)
+5.  [Live Demo](#live-demo)
+6.  [Future Additions](#future-additions)
 
 
 ## Features
 *   🔥 **700 Total Challenges**
 *   7 Categories × 100 challenges each
 
+*   **Categories:**
 *   **Web**
 *   **Crypto**
 *   **Forensics**
@@ -48,7 +57,7 @@ Each challenge includes:
 *   Dynamic falling code
 *   Animated glowing UI
 *   Gradient effects
-*   Responsive for all devices
+*   Responsive design for all devices
 
 
 
@@ -69,25 +78,25 @@ FLAG{category_difficulty_id}
 
 ## Categories Overview
 *   **Web**
-*   XSS, SQLi, CSRF, SSRF, JWT attacks, file uploads, etc.
+*   XSS, SQLi, CSRF, SSRF, JWT attacks, file uploads, and more.
 
 *   **Crypto**
-*   Ciphers, hashing, RSA, XOR, ECB, padding oracles, etc.
+*   Ciphers, hashing, RSA, XOR, ECB, padding oracles, and more.
 
 *   **Forensics**
-*   Files, memory, disks, stego, PCAPs, registries, etc.
+*   Files, memory, disks, stego, PCAPs, registries, and more.
 
 *   **Reverse Engineering**
-*   Binaries, APKs, obfuscation, custom VMs, anti-debug, etc.
+*   Binaries, APKs, obfuscation, custom VMs, anti-debug techniques, and more.
 
 *   **Pwn**
-*   Stack, heap, ROP, mitigations, kernel, sandbox, etc.
+*   Stack, heap, ROP, mitigations, kernel, sandbox escapes, and more.
 
 *   **OSINT**
 *   Geolocation, metadata, tracking, infrastructure analysis.
 
 *   **Misc**
-*   Puzzles, logic, programming, games, math.
+*   Puzzles, logic problems, programming challenges, games, math problems.
 
 
 
@@ -101,7 +110,7 @@ FLAG{category_difficulty_id}
 
 
 ## Live Demo
-You can host this anywhere (GitHub Pages, Vercel, Netlify). Simply drop the repo as-is, and it works instantly.
+You can host this platform anywhere (GitHub Pages, Vercel, Netlify). Simply deploy the repository as-is, and it will work instantly.
 
 
 
