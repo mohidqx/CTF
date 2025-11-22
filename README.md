@@ -1,143 +1,112 @@
-CyberØps CTF Platform
+# CyberØps CTF Platform
+CyberØps CTF is a fully interactive Capture-the-Flag (CTF) platform. It features 700 handcrafted challenges spanning 7 major cybersecurity domains. Designed with a sleek cyber-aesthetic interface and smooth UX, this platform is ideal for learning, training, and competitive CTF practice.
 
-CyberØps CTF is a fully interactive Capture-the-Flag platform featuring 700 handcrafted challenges across 7 major cybersecurity domains. Built with a sleek cyber-aesthetic interface and smooth UX, this platform is designed for learning, training, and competitive CTF practice.
+CyberØps provides everything you need in one place to sharpen your offensive security fundamentals or prepare for real-world competitions. This includes categories, difficulty tiers, points, filters, search, progress tracking, and dynamic challenge popups.
 
-Whether you're sharpening your offensive security fundamentals or preparing for real-world competitions, CyberØps gives you everything in one place: categories, difficulty tiers, points, filters, search, progress tracking, and dynamic challenge popups.
 
-Features
-🔥 700 Total Challenges
 
-7 Categories × 100 each
+## Features
+*   🔥 **700 Total Challenges**
+*   7 Categories × 100 challenges each
 
-Web
+*   **Web**
+*   **Crypto**
+*   **Forensics**
+*   **Reverse Engineering**
+*   **Misc**
+*   **Pwn**
+*   **OSINT**
 
-Crypto
+*   🎚️ **Difficulty Levels**
+*   33 Easy
+*   33 Normal
+*   33 Hard
+*   1 Legendary
 
-Forensics
+*   🏆 **Progress Tracking**
+*   Solved counter per category
+*   Total points counter
+*   LocalStorage-based persistent progress
 
-Reverse Engineering
+*   🔍 **Smart Filters & Search**
+*   Filter by category
+*   Filter by difficulty
+*   Real-time search box
 
-Misc
-
-Pwn
-
-OSINT
-
-🎚️ Difficulty Levels
-
-33 Easy
-
-33 Normal
-
-33 Hard
-
-1 Legendary
-
-🏆 Progress Tracking
-
-Solved counter per category
-
-Total points counter
-
-LocalStorage-based persistent progress
-
-🔍 Smart Filters & Search
-
-Filter by category
-
-Filter by difficulty
-
-Real-time search box
-
-🚀 Challenge Modal
+*   🚀 **Challenge Modal**
 
 Each challenge includes:
 
-Title, ID, category, difficulty
+*   Title, ID, category, difficulty
+*   Description
+*   Challenge path
+*   Flag submission box
+*   Points system
+*   Animated premium-style modal UI
 
-Description
+*   💻 **Built-in Matrix Theme**
+*   Dynamic falling code
+*   Animated glowing UI
+*   Gradient effects
+*   Responsive for all devices
 
-Challenge path
 
-Flag submission box
 
-Points system
-
-Animated premium-style modal UI
-
-💻 Built-in Matrix Theme
-
-Dynamic falling code
-
-Animated glowing UI
-
-Gradient effects
-
-Responsive for all devices
-
-Challenge Structure
-
+## Challenge Structure
 Each challenge follows a consistent folder pattern:
 
+```
 ctf/<category>/<difficulty>/<id>/
-
+```
 
 Flags follow a simple, predictable format for testing:
 
+```
 FLAG{category_difficulty_id}
+```
 
-Categories Overview
-Web
 
-XSS, SQLi, CSRF, SSRF, JWT attacks, file uploads, etc.
 
-Crypto
+## Categories Overview
+*   **Web**
+*   XSS, SQLi, CSRF, SSRF, JWT attacks, file uploads, etc.
 
-Ciphers, hashing, RSA, XOR, ECB, padding oracles, etc.
+*   **Crypto**
+*   Ciphers, hashing, RSA, XOR, ECB, padding oracles, etc.
 
-Forensics
+*   **Forensics**
+*   Files, memory, disks, stego, PCAPs, registries, etc.
 
-Files, memory, disks, stego, PCAPs, registries, etc.
+*   **Reverse Engineering**
+*   Binaries, APKs, obfuscation, custom VMs, anti-debug, etc.
 
-Reverse Engineering
+*   **Pwn**
+*   Stack, heap, ROP, mitigations, kernel, sandbox, etc.
 
-Binaries, APKs, obfuscation, custom VMs, anti-debug, etc.
+*   **OSINT**
+*   Geolocation, metadata, tracking, infrastructure analysis.
 
-Pwn
+*   **Misc**
+*   Puzzles, logic, programming, games, math.
 
-Stack, heap, ROP, mitigations, kernel, sandbox, etc.
 
-OSINT
 
-Geolocation, metadata, tracking, infrastructure analysis.
+## Tech Used
+*   HTML, CSS, JavaScript
+*   Smooth animations
+*   LocalStorage persistence
+*   Responsive grid layout
+*   Zero backend required
 
-Misc
 
-Puzzles, logic, programming, games, math.
 
-Tech Used
+## Live Demo
+You can host this anywhere (GitHub Pages, Vercel, Netlify). Simply drop the repo as-is, and it works instantly.
 
-HTML, CSS, JavaScript
 
-Smooth animations
 
-LocalStorage persistence
-
-Responsive grid layout
-
-Zero backend required
-
-Live Demo
-
-You can host this anywhere (GitHub Pages, Vercel, Netlify).
-Simply drop the repo as-is, and it works instantly.
-
-Future Additions
-
-Leaderboards
-
-User accounts
-
-Real flag validation backend
-
-Multiplayer competitions
+## Future Additions
+*   Leaderboards
+*   User accounts
+*   Real flag validation backend
+*   Multiplayer competitions
