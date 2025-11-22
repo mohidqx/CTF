@@ -110,7 +110,7 @@ FLAG{category_difficulty_id}
 
 
 ## Live Demo
-You can host this platform anywhere (GitHub Pages, Vercel, Netlify). Simply deploy the repository as-is, and it will work instantly.
+Deployed on Vercel : cyberops-ctf.vercel.app
 
 
 
